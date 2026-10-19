@@ -1,0 +1,15 @@
+{
+	"name": "adf-myuberproject-dev",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2dd48373-1233-4ece-b0a9-7ab191fa24e2",
+		"tenantId": "59b825c7-ab2c-4597-940c-45f4e1fe83ce"
+	}
+}
