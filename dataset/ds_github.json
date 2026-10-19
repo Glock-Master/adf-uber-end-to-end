@@ -1,0 +1,27 @@
+{
+	"name": "ds_github",
+	"properties": {
+		"description": "cancellation reasons mapping dataset\n",
+		"linkedServiceName": {
+			"referenceName": "ls_github_source",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"p_file": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": {
+					"value": "anshlambagit/Uber_Data_Engineer_Project/refs/heads/main/Data/@{dataset().p_file}",
+					"type": "Expression"
+				}
+			}
+		},
+		"schema": {}
+	}
+}
