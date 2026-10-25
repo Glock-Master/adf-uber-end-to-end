@@ -47,7 +47,7 @@
 				"userProperties": [],
 				"typeProperties": {
 					"items": {
-						"value": "@activity('files_array').value",
+						"value": "@activity('files_array').output.value",
 						"type": "Expression"
 					},
 					"activities": [
@@ -91,7 +91,7 @@
 									"type": "DatasetReference",
 									"parameters": {
 										"p_file": {
-											"value": "{@item().file}.json",
+											"value": "@{item().file}.json",
 											"type": "Expression"
 										}
 									}
