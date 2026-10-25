@@ -197,7 +197,7 @@
 						"userProperties": [],
 						"typeProperties": {
 							"items": {
-								"value": "@activity('files_array').output.value",
+								"value": "@activity('files_array').value",
 								"type": "Expression"
 							},
 							"activities": [
